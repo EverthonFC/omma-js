@@ -70,7 +70,10 @@ function exibirReceitas() {
       <article class="card">
         <h2>${listaDeReceitas[index].titulo}</h2>
         <small>Dificuldade: ${listaDeReceitas[index].dificuldade}</small>
+        <p> Ingredientes: ${listaDeReceitas[index].ingredientes}</p>
         <p> ${listaDeReceitas[index].preparo}</p>
+        <p> Link ${listaDeReceitas[index].link}</p>
+        <p> vegana? ${listaDeReceitas[index].vegano}</p>
       </article>`;
 
     }
